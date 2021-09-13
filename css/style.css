@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/Table\ confitures\ fraises.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Parisienne', cursive;
+   
+    font-size: 30px;
+ } 
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+
+    font-weight: bold;
+}
+ .center{
+     text-align: center;
+ }
+ nav ul{
+     display: flex;
+     list-style-type: none;
+     justify-content: space-between;
+ }
+figure img {
+    width: 100%;
+    object-fit: scale-down;
+}
+section{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
